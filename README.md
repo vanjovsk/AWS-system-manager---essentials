@@ -25,7 +25,7 @@ macOS ---> Agent status on macOS. You can check the status by locating and evalu
 
 Windows Server ---> Get-Service AmazonSSMAgent
 
-<b> Troubleshooting SSM Agent: </b>
+<h2><b> Troubleshooting SSM Agent: </b></h2>
 
 Your network needs a clear path to reach the service. You have two choices:
 
