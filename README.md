@@ -1,11 +1,11 @@
 # AWS-system-manager---essentials
 set up
 
-Use SSM Agent (from AWS Systems Manager) to update, manage, and configure instances(EC2), vitual machines and on-premises servers.
+<h1> Use SSM Agent (from AWS Systems Manager) to update, manage, and configure instances(EC2), vitual machines and on-premises servers.</h1>
 
 First, find if the SSM Agent is already installed in the Operation System when you launch an EC2 instance created from an AMI.
 
-<b> This is how I verify the SSM Agent status :<b>
+<b> This is how I verify the SSM Agent status :</b>
 
 1- lounch the ec2 instance
 
@@ -15,7 +15,7 @@ First, find if the SSM Agent is already installed in the Operation System when y
 
 list of commands:
 
-<b> Operating system	Command <b>
+<b> Operating system	Command </b>
 
 Amazon Linux  ---> sudo status amazon-ssm-agent
 
@@ -25,7 +25,7 @@ macOS ---> Agent status on macOS. You can check the status by locating and evalu
 
 Windows Server ---> Get-Service AmazonSSMAgent
 
-<b> Troubleshooting SSM Agent: <b>
+<b> Troubleshooting SSM Agent: </b>
 
 Your network needs a clear path to reach the service. You have two choices:
 
