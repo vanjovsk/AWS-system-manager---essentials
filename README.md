@@ -13,7 +13,11 @@ This is how I verify the SSM Agent status:
 list of commands:
 
 Operating system	Command
+
 Amazon Linux  ---> sudo status amazon-ssm-agent
+
 Amazon Linux 2 and Amazon Linux 2023 ---> sudo systemctl status amazon-ssm-agent
+
 macOS ---> Agent status on macOS. You can check the status by locating and evaluating the agent log file /var/log/amazon/ssm/amazon-ssm-agent.log.
+
 Windows Server ---> Get-Service AmazonSSMAgent
