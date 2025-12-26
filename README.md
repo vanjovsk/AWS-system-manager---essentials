@@ -5,7 +5,7 @@ set up
 
 First, find if the SSM Agent is already installed in the Operation System when you launch an EC2 instance created from an AMI.
 
-<b> This is how I verify the SSM Agent status :</b>
+<p><b> This is how I verify the SSM Agent status :</b></p>
 
 1- lounch the ec2 instance
 
@@ -15,7 +15,7 @@ First, find if the SSM Agent is already installed in the Operation System when y
 
 list of commands:
 
-<b> Operating system	Command </b>
+<p><b> Operating system	Command </b></p>
 
 Amazon Linux  ---> sudo status amazon-ssm-agent
 
