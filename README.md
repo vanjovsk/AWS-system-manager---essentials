@@ -5,14 +5,17 @@ Use SSM Agent (from AWS Systems Manager) to update, manage, and configure instan
 
 First, find if the SSM Agent is already installed in the Operation System when you launch an EC2 instance created from an AMI.
 
-This is how I verify the SSM Agent status:
+<b>This is how I verify the SSM Agent status:<b>
+
 1- lounch the ec2 instance
+
 2- Connect the Instance. You can use SSH to connect to Linux instances or use Remote Desktop to connect to Windows Server instances.
+
 3- Check the status of SSM Agent by running the command for your instance's OS type
 
 list of commands:
 
-Operating system	Command
+<b>Operating system	Command<b>
 
 Amazon Linux  ---> sudo status amazon-ssm-agent
 
